@@ -5,8 +5,10 @@
     "ng": "ng",
     "custservice":"nodemon ./server/customersservice.js",
     "ordservice":"nodemon ./server/ordersservice.js",
+    "electronicsservice":"nodemon ./server/electronicsservice.js",
+    "electricalervice":"nodemon ./server/electricalservice.js",
     "ngclient":"ng serve",
-    "start": "npm-run-all -p custservice ordservice ngclient",
+    "start": "npm-run-all -p electronicsservice electricalervice ngclient",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
