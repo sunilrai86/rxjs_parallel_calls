@@ -3,11 +3,11 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "custservice":"nodemon ./server/customersservice.js",
-    "ordservice":"nodemon ./server/ordersservice.js",
-    "electronicsservice":"nodemon ./server/electronicsservice.js",
-    "electricalervice":"nodemon ./server/electricalservice.js",
-    "ngclient":"ng serve",
+    "custservice": "nodemon ./server/customersservice.js",
+    "ordservice": "nodemon ./server/ordersservice.js",
+    "electronicsservice": "nodemon ./server/electronicsservice.js",
+    "electricalervice": "nodemon ./server/electricalservice.js",
+    "ngclient": "ng serve",
     "start": "npm-run-all -p electronicsservice electricalervice ngclient",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
@@ -41,6 +41,7 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.0.0",
+    "nodemon": "^2.0.22",
     "typescript": "~4.9.4"
   },
   "type": "module"
